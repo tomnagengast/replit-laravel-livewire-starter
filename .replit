@@ -1,8 +1,11 @@
-# run = "php artisan serve"
-run = "php artisan serve & npm run dev"
+run = "php artisan serve"
+# run = "php artisan serve & npm run dev"
 
 [nix]
 channel = "unstable"
+
+[env]
+APP_ENV = 'local'
 
 [[ports]]
 localPort = 5173
