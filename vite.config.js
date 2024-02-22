@@ -14,7 +14,7 @@ export default defineConfig({
     server: {
         hmr: {
             protocol: 'wss',
-            host: process.env.APP_URL
+            host: process.env.APP_URL,
         },
     },
 });
